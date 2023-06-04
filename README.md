@@ -1,31 +1,38 @@
-# # Título del Proyecto
+# Sistema de Gestión de Sucursales de Grupo Bimbo
 
-Breve descripción o introducción al proyecto.
+Este proyecto aborda un serio problema logístico en el envío de datos a las sucursales de Grupo Bimbo ubicadas en las ciudades de Leticia, Villavicencio, Pasto, Nariño y Caracas, Venezuela. Los costos de envío no coinciden con los informados por las sucursales, presentando un exceso de hasta el 700% en lugar del 200% esperado.
 
-## Instalación
+## Descripción del Sistema
 
-Indica cómo instalar y configurar el proyecto. Puedes incluir requisitos previos, comandos de instalación o enlaces a documentación adicional.
+El sistema de información desarrollado es una herramienta de gestión que abarca las siguientes funcionalidades:
 
-## Uso
+- Manejo de inventario: Cada sucursal tiene un inventario diferente de productos. Se implementa un sistema de manejo de personal para colaboradores.
+- Operaciones CRUD: Se proporciona la capacidad de crear, leer, actualizar y eliminar registros de productos y colaboradores.
+- Cálculo de costos: Se requiere calcular el costo total del inventario y compararlo con el exceso del 700% para informar a la gerencia sobre la cantidad de dinero adicional que está ingresando, considerando la posibilidad de lavado de dinero.
+- Generación de informes: El sistema debe generar informes en formato PDF que incluyan los inventarios de todas las sucursales, así como gráficas que muestren la diferencia entre las ganancias reales y las esperadas para cada sucursal.
 
-Proporciona ejemplos o instrucciones detalladas sobre cómo utilizar el proyecto. Incluye comandos, configuraciones o ejemplos de código relevantes.
+## Relaciones entre productos y colaboradores
+
+Los productos vendidos deben estar relacionados con el colaborador que realizó la venta correspondiente.
+
+## Gráficas de ganancias
+
+Se requiere generar gráficas que muestren las ganancias esperadas para cada sucursal en comparación con las ganancias reales.
+
+## Cálculo de diferencia de ganancias
+
+La diferencia de ganancias se calcula multiplicando el costo unitario por el 200% y el 700%, y luego restando los resultados para determinar las ganancias reales que deberían obtenerse.
 
 ## Contribución
 
-Describe cómo otros pueden contribuir a tu proyecto. Esto puede incluir instrucciones para enviar pull requests, guías de estilo de código, información sobre pruebas o enlaces a problemas abiertos o proyectos relacionados.
-
-## Créditos
-
-Si utilizaste bibliotecas, recursos o inspiración de otros proyectos, asegúrate de reconocerlos aquí y proporcionar enlaces a sus sitios web o repositorios.
+¡Agradecemos las contribuciones al proyecto! Si deseas contribuir, por favor sigue las pautas de contribución descritas en [CONTRIBUTING.md](enlace-a-contributing.md).
 
 ## Licencia
 
-Indica la licencia bajo la cual se distribuye tu proyecto. Si no estás seguro de qué licencia utilizar, puedes consultar [choosealicense.com](https://choosealicense.com/) para obtener más información.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE.md](enlace-a-licencia.md) para obtener más detalles.
 
 ## Contacto
 
-Proporciona información de contacto, como tu dirección de correo electrónico, para que las personas interesadas puedan comunicarse contigo.
+Para cualquier consulta o pregunta sobre el proyecto, puedes contactarnos a través del correo electrónico contacto@ejemplo.com.
 
-## Información adicional
 
-Cualquier información adicional o instrucciones que consideres importante y que no se haya mencionado anteriormente.
