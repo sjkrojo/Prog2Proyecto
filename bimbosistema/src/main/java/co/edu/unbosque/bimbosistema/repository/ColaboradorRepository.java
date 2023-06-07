@@ -1,0 +1,18 @@
+package co.edu.unbosque.bimbosistema.repository;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.data.repository.CrudRepository;
+
+import co.edu.unbosque.bimbosistema.model.Colaborador;
+
+
+
+public interface ColaboradorRepository extends CrudRepository<Colaborador, Integer> {
+	
+	public Optional<Colaborador> findById(Integer id);
+	
+	public List<Colaborador> findAll();
+	
+}
