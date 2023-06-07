@@ -23,16 +23,9 @@ Se requiere generar gráficas que muestren las ganancias esperadas para cada suc
 
 La diferencia de ganancias se calcula multiplicando el costo unitario por el 200% y el 700%, y luego restando los resultados para determinar las ganancias reales que deberían obtenerse.
 
-## Contribución
-
-¡Agradecemos las contribuciones al proyecto! Si deseas contribuir, por favor sigue las pautas de contribución descritas en [CONTRIBUTING.md](enlace-a-contributing.md).
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE.md](enlace-a-licencia.md) para obtener más detalles.
 
 ## Contacto
 
-Para cualquier consulta o pregunta sobre el proyecto, puedes contactarnos a través del correo electrónico contacto@ejemplo.com.
+Para cualquier consulta o pregunta sobre el proyecto, puedes contactarnos a través del correo electrónico danrodriguezr@unbosque.edu.co
 
 
